@@ -11,11 +11,15 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
+html, body {
     background-color: var(--bg);
     color: var(--text);
     line-height: 1.6;
+    overflow-x: hidden !important;
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
 }
 
 section {
