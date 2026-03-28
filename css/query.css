@@ -27,7 +27,7 @@
         right: 0 !important; 
     }
 
-    .sidebar-logo {
+    nav .nav-links span.sidebar-logo {
         font-family: 'playfair display', serif !important;
         font-size: 2.2rem !important;
         text-align: center;
