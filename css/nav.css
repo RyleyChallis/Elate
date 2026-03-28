@@ -31,8 +31,8 @@ nav {
     align-items: center;
 }
 
-.nav-links li {
-    list-style: none;
+body nav ul.nav-links li {
+    list-style: none !important;
 }
 
 .nav-links a {
