@@ -34,6 +34,7 @@
         color: var(--primary) !important;
         text-decoration: none;
         z-index: 9999;
+        display: flex !important;
     }
 
     .nav-links a {
