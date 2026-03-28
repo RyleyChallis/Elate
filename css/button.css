@@ -48,3 +48,10 @@
     color: white;
     transform: translateY(-3px);
 }
+
+.error-btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
