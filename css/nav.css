@@ -19,6 +19,10 @@ nav {
     text-decoration: none;
 }
 
+.sidebar-logo {
+    display: none;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
