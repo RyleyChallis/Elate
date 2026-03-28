@@ -56,19 +56,19 @@
     justify-content: center;
 }
 
-.error-btns a {
+body .error-container .error-btns a {
     display: inline-block;
     padding: 0.8rem 2rem;
     border-radius: 50px;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'lato', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.9rem;
     transition: all 0.3s ease;
     
-    background-color: var(--primary);
+    background-color: var(--primary) !important;
     color: white !important;
 }
 
