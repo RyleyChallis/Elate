@@ -24,11 +24,15 @@ nav {
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: row !important;
     gap: 2rem;
     list-style: none;
     align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
 }
 
 .nav-links a {
