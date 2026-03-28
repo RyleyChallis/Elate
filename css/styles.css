@@ -191,6 +191,11 @@ h2 {
 .location-info p {
     margin-bottom: 2rem;
     color: #555;
+    font-family: 'lato';
+}
+
+.location-info .detail-item p {
+    color: #545454;
 }
 
 iframe {

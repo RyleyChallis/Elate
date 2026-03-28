@@ -28,8 +28,11 @@
     }
 
     .nav-links a {
-        margin: 0;
+        margin: 0 !important;
+        padding: 0 !important;
         font-size: 1.2rem;
+        font-family: 'lato';
+        font-weight: 400 !important;
         display: block;
         transition: all 0.3s ease;
         padding: 1rem;
@@ -154,6 +157,25 @@
     .footer-bottom p {
         font-family: 'bodoni moda';
     }
+
+    .btn-book {
+        max-width: 210px !important;
+        width: 100% !important;
+        white-space: nowrap;
+    }
+
+    nav .nav-links .btn-book {
+        display: flex;
+        padding: 20px 60px !important;
+        justify-content: center !important;
+    }
+    #about {
+        scroll-margin-top: -60px;
+    }
+
+    #location {
+        scroll-margin-top: -60px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -198,5 +220,9 @@
         margin: 75px auto;
         justify-content: center;
         align-items: center;
+    }
+    #hero .btn-secondary {
+        width: 250px !important;
+        white-space: nowrap !important;
     }
 }
