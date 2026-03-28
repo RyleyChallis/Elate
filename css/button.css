@@ -1,3 +1,10 @@
+:root {
+    --primary: #2D3E2E;
+    --accent: #D4A373;
+    --bg: #FAFAF9;
+    --text: #1C1C1C;
+}
+
 .btn-book {
     background: var(--primary);
     color: white !important;
@@ -56,7 +63,7 @@
     justify-content: center;
 }
 
-body .error-container .error-btns a {
+body .error-container .error-btns .error-link {
     display: inline-block;
     padding: 0.8rem 2rem;
     border-radius: 50px;
@@ -72,8 +79,8 @@ body .error-container .error-btns a {
     color: white !important;
 }
 
-.error-btns a:hover {
-    background-color: #3e543f;
+body .error-container .error-btns .error-link:hover {
+    background-color: #3e543f !important;
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
