@@ -57,11 +57,23 @@
 }
 
 .error-btns a {
-    background-color: var(--primary) !important;
-    transition: all 0.3s ease !important;
-    padding: 20px 40px;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    
+    background-color: var(--primary);
+    color: white !important;
 }
 
-.error-btns .error-link:hover {
-    background-color: #3e543f !important;
+.error-btns a:hover {
+    background-color: #3e543f;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
