@@ -1,0 +1,50 @@
+.btn-book {
+    background: var(--primary);
+    color: white !important;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    display: inline-block;
+}
+
+.btn-book:hover {
+    transform: translateY(-2px);
+    background: #3e543f;
+}
+
+.menu-cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.hero .btn-secondary {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.hero .btn-secondary:hover {
+    transform: translateY(-10px);
+    background-color: var(--primary);
+}
+
+.btn-secondary {
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+}
