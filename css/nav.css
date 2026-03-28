@@ -28,9 +28,10 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--text);
-    font-weight: 500;
-    font-size: 0.9rem;
+    color: var(--primary);
+    font-weight: 400 !important;
+    font-size: 1.1rem;
+    font-family: 'playfair display';
     transition: color 0.3s;
 }
 
