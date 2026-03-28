@@ -23,9 +23,9 @@ nav {
     display: none;
 }
 
-body nav.navbar .nav-links {
-    display: flex !important;
-    flex-direction: row !important;
+.nav-links {
+    display: flex;
+    flex-direction: row;
     gap: 2rem;
     list-style: none;
     align-items: center;
