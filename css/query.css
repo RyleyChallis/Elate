@@ -27,7 +27,7 @@
         right: 0 !important; 
     }
 
-    nav .nav-links .sidebar-logo {
+    nav .nav-links span.sidebar-logo {
         font-family: 'playfair display', serif !important;
         font-size: 2.2rem !important;
         text-align: center;
@@ -35,7 +35,7 @@
         text-decoration: none;
         z-index: 9999;
         display: flex !important;
-        margin-bottom: 50px !important;
+        margin-bottom: 50px;
     }
 
     .nav-links a {
