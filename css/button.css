@@ -55,3 +55,13 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.error-btns a {
+    background-color: var(--primary) !important;
+    transition: all 0.3s ease !important;
+    padding: 20px 40px;
+}
+
+.error-btns .error-link:hover {
+    background-color: #3e543f !important;
+}
