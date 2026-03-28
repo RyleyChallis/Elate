@@ -5,7 +5,7 @@
     --text: #1C1C1C;
 }
 
-.btn-book {
+.nav-links .btn-book {
     background: var(--primary);
     color: white !important;
     padding: 0.7rem 1.5rem !important;
