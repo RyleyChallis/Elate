@@ -112,8 +112,7 @@
     }
 
     .footer-wrap {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
+        display: flex !important;
         align-items: flex-start !important;
         justify-content: center !important;
         margin: 0 auto !important;
