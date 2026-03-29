@@ -14,6 +14,8 @@
         height: 100vh;
         gap: 20px;
 
+        display: flex !important;
+        flex-direction: column !important;
         justify-content: center;
         align-items: center;
         text-align: center;
