@@ -4,7 +4,7 @@
         z-index: 1001;
     }
 
-    .nav-links {
+    body nav ul.nav-links {
         position: fixed;
         right: -100% !important;
         top: 0;
